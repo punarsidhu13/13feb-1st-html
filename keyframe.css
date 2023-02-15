@@ -1,0 +1,38 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* flex-direction: column; */
+    /* position: relative; */
+}
+
+h2{
+    text-align: center;
+    border: solid violet;
+    background: greenyellow;
+    width: 670px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.img{
+    width: 100vw;
+    height: 100vh;
+    animation-name: image;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    background-repeat: no-repeat;
+    position: fixed;
+    left: 10%;
+    top: 7%;
+}
+
+@keyframes image{
+    25% {background-image: url(https://images.pexels.com/photos/459203/pexels-photo-459203.jpeg?auto=compress&cs=tinysrgb&w=1600);}
+    50%{background-image: url(https://images.pexels.com/photos/36762/scarlet-honeyeater-bird-red-feathers.jpg?auto=compress&cs=tinysrgb&w=1600);}
+    75%{background-image: url(https://images.pexels.com/photos/45853/grey-crowned-crane-bird-crane-animal-45853.jpeg?auto=compress&cs=tinysrgb&w=1600);}
+    100%{background-image: url(https://images.pexels.com/photos/33045/lion-wild-africa-african.jpg?auto=compress&cs=tinysrgb&w=1600);}
+}
